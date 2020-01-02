@@ -1,0 +1,35 @@
+{
+  "name": "smtp2",
+  "version": "0.0.5",
+  "description": "simple smtp client and server for node.js",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test"
+  },
+  "bin": {
+    "smtp2": "./bin/smtp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/node-smtp.git"
+  },
+  "keywords": [
+    "mail",
+    "smtp",
+    "smtp-server"
+  ],
+  "author": "lsong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/song940/node-smtp/issues"
+  },
+  "homepage": "https://github.com/song940/node-smtp#readme",
+  "dependencies": {
+    "mime2": "latest"
+  },
+  "devDependencies": {}
+}
